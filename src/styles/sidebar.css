@@ -1,0 +1,86 @@
+/* Sidebar css */
+
+.sidebar {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: -100%;
+    width: 365px;
+    padding: 40px 30px;
+    padding-top: 50px;
+    height: 100%;
+    display: block;
+    background-color: white;
+    backdrop-filter: blur(7px);
+    z-index: 1900;
+    transition: all 600ms ease;
+    box-shadow: -5px 0 20px -5px rgba(149, 22, 22, 0.12);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.sidebar.active {
+    right: 0;
+}
+
+.close-btn {
+    background: var(--primary-color);
+    border: none;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.get-in-tuch h3{
+    color: var(  --secondary-color);
+    font-size: 26px;
+    
+}
+.get-in-tuch a {
+    color: var(--text-color);
+    display: block;
+    margin-bottom: 10px;
+}
+.get-in-tuch i{
+    color: var(--primary-color);
+}
+
+.sidebar-social-wrapper{
+    margin-top: 50px;
+    margin-left: 12px;
+    padding-left: 0;
+}
+
+.sidebar-social-wrapper a{
+    margin-right: 40px;
+    z-index: 1;
+    position: relative;
+}
+.sidebar-social-wrapper a i{
+    color: #fff;
+    transition: 0.3s;
+    font-size: 16px;
+}
+.sidebar-social-wrapper a::after{
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    content: "";
+    z-index: -1;
+    background: var(--primary-color);
+    color: var(--text-white);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+.sidebar-p{
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+}

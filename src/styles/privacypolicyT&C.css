@@ -1,0 +1,94 @@
+.PPM_privacy_section {
+    background: #f9f9f9;
+}
+
+.PPM_privacy_wrapper {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.PPM_privacy_title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #222;
+    text-transform: uppercase;
+
+}
+
+.PPM_privacy_wrapper h4 {
+    margin-top: 30px;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.PPM_privacy_wrapper p {
+    color: #555;
+    line-height: 1.8;
+    margin-top: 10px;
+}
+
+
+
+
+.PPM_privacy_section ul,
+.PPM_privacy_section ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.PPM_privacy_section ul li,
+.PPM_privacy_section ol li {
+    margin: 0;
+    padding: 0px 0 10px 15px;
+    list-style: none;
+    position: relative;
+}
+
+.PPM_privacy_section ul li:before,
+.PPM_privacy_section ol li:before {
+    content: '';
+    font-size: 10px;
+    color: #F64A00;
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background: #F64A00;
+}
+
+.PPM_order_no {
+    color: #F64A00;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.PPM_privacy_section ul li p,
+.PPM_privacy_section ol li p {
+    padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .PPM_privacy_wrapper {
+        padding: 20px;
+    }
+
+    .PPM_privacy_title {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+}

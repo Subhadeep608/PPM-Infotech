@@ -1,0 +1,396 @@
+/* Hero Landing Page Section  */
+.wd-hero-section {
+    background: linear-gradient(135deg,
+            #ff7a00 -40%,
+            /* top-left orange */
+            #ffffff 60%,
+            /* center white */
+            #ff7a00 150%
+            /* bottom-right orange */
+        );
+    margin-top: -200px;
+    padding-top: 250px;
+    padding-bottom: 50px;
+}
+
+
+.wd-hero-content {
+    flex: 1;
+    min-width: 320px;
+}
+
+.wd-hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--secondary-color);
+    font-family: var(--heading-font) !important;
+    line-height: 1.2;
+}
+
+.wd-hero-underline {
+    width: 220px;
+    height: 6px;
+    background-color: var(--primary-color);
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* .wd-hero-description {
+  font-size: 16px;
+  color: #555;
+  max-width: 500px;
+  margin-bottom: 30px;
+} */
+
+.wd-hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.wd-primary-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.wd-primary-btn:hover {
+    background-color: var(--secondary-color);
+}
+
+.wd-secondary-btn {
+    background: transparent;
+    border: 1px solid #333;
+    padding: 12px 22px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.wd-hero-image-wrapper {
+    flex: 1;
+    min-width: 320px;
+    text-align: center;
+}
+
+.wd-hero-image {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .wd-hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .wd-hero-title {
+        font-size: 36px;
+    }
+
+    .wd-hero-buttons {
+        justify-content: center;
+    }
+
+    .wd-hero-underline {
+        margin: 20px auto;
+    }
+}
+
+
+/* service section landing page  */
+.service-card {
+    display: flex;
+    padding: 24px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s ease;
+    height: 100%;
+}
+
+
+.services-section-lend {
+    background: #ffffff;
+}
+
+.services-tag {
+    background: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.main-title-left {
+    font-size: 42px;
+    line-height: 53px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 3px #aaa;
+}
+
+
+
+.service-blue {
+    background: rgba(1, 1, 42, 0.904);
+}
+
+.service-blue p {
+    color: #ffffff;
+}
+
+.service-title {
+    font-weight: 600;
+}
+
+.highlight {
+    background: var(--primary-color);
+    padding: 3px 8px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.highlight-white {
+    background: #fff;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+.service-img {
+    width: 120px;
+}
+
+.services-section-lend .main-title-left {
+    margin-top: 0px;
+}
+
+.about-user-lend {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.landing-main2 {
+    background-color: var(--secondary-color);
+    height: 100%;
+    min-height: 500px;
+}
+
+.landing-main2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.landing-main2 .home-about-img .land-main-img {
+    height: fit-content;
+}
+
+.landing-main2 .overlay-img {
+    top: -62%;
+}
+
+.price-top-wrap.basic,
+.basic-palan-btn {
+    background-color: #ff7a00;
+}
+
+.price-top-wrap.standard,
+.standard-palan-btn {
+    background-color: rgb(243, 182, 28);
+}
+
+.price-top-wrap.premium,
+.premium-palan-btn {
+    background-color: #6a47ed;
+}
+
+.price-top-wrap p,
+.price-top-wrap h4,
+.price-top-wrap h3 {
+    color: #fff;
+}
+
+.price-top-wrap {
+    border-radius: 10px;
+}
+
+.lend-price-feature-list.basic .available {
+    background-color: black;
+    border: 1px solid black;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.lend-price-feature-list.standard .available {
+    background-color: #1C2539;
+    border: 1px solid #1C2539;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.lend-price-feature-list.premium .available {
+    background-color: #6a47ed;
+    border: 1px solid #6a47ed;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.premium-bg {
+    background-color: #6a47ed;
+}
+
+.standard-bg {
+    background-color: #1C2539;
+}
+
+.basic-bg {
+    background-color: black;
+}
+
+.price-top-wrap .title {
+    font-size: 25px;
+}
+
+.pricing-beg {
+    top: -15px;
+}
+
+.technology-section {
+    background-image: url(../assets/images/bg-tech.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f3f3f3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .service-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-img {
+        margin-top: 20px;
+    }
+}
+
+.landing-content h2 {
+    font-size: 42px;
+    /* text-align: center; */
+}
+
+.services-section-lend .main-title-left {
+    text-transform: capitalize;
+}
+
+.services-section-lend .aboutText-stock-title {
+    margin: 0;
+}
+
+.workflow-sec .row {
+    height: 500px;
+    object-fit: cover;
+}
+
+.workflow-sec .row {
+    background: url(../assets/images/workflow2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .land-main-img {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 5px;
+    height: 280px;
+    width: auto;
+    object-fit: cover !important;
+} */
+
+@media (max-width: 768px) {
+    .workflow-sec .row {
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .skills-section1 .row {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 20px;
+    }
+
+    .wd-hero-section .row {
+        row-gap: 20px;
+        flex-direction: column-reverse;
+    }
+    .main-title-left {
+    font-size: 42px;
+    line-height: 37px; 
+}
+}
+
+@media (max-width: 575px) {
+    .wd-hero-underline {
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 525px) {
+    .workflow-sec .row {
+        height: 250px;
+        background-size: 150%;
+        background-position: center;
+    }
+
+    .landing-main2 {
+        min-height: 370px;
+    }
+
+    .main-title-left {
+        font-size: 26px;
+        line-height: 37px;
+    }
+
+    .wd-hero-title {
+        font-size: 30px;
+    }
+
+    .skills-section1 .row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .landing-content h2 {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 425px) {
+.main-title-left {
+    font-size: 22px;
+    line-height: 34px;
+}
+}
+

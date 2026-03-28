@@ -1,0 +1,40 @@
+/* Responsive code of Home Page  */
+
+@media (min-width: 1024px) {
+
+}
+
+@media (max-width: 991px) {
+.project-title-row{
+    margin-bottom: 20px !important;
+}
+.project-sec .row{
+    row-gap: 20px !important;
+} 
+.about-section .row{
+    row-gap: 20px;
+}
+}
+
+@media (max-width: 767px) {
+.project-title-row .text-end{
+    display: none;
+}
+}
+
+@media (max-width: 575px) {
+
+
+}
+
+@media (max-width: 525px) {
+
+}
+
+@media (max-width: 420px) {
+
+}
+
+@media (max-width: 360px) {
+
+}

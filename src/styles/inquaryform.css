@@ -1,0 +1,40 @@
+.mail-phon-wrap .input-group {
+    width: 50% !important;
+}
+
+.mail-phon-wrap {
+    display: flex;
+    gap: 20px;
+}
+
+.inquary-form {
+    background-image: url(../assets/images/bg1.jpg);
+    padding: 30px 0;
+}
+
+.inquary-btn {
+    width: 100%;
+}
+
+.inquary-content-bx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inquary-content-bx h3 {
+    color: #fff;
+}
+
+/* Respinsive  */
+
+@media (max-width: 991px) {
+    .mail-phon-wrap .input-group {
+        width: 100% !important;
+    }
+
+    .mail-phon-wrap {
+        gap: 0px;
+        flex-direction: column;
+    }
+}

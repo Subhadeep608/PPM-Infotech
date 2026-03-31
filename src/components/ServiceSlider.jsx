@@ -7,6 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import ServiceCard from "./ServiceCard";
+import { pathBuilder } from "../utility/converters";
 
 export default function ServiceSlider({ direction = "ltr" }) {
   return (
